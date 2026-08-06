@@ -37,25 +37,25 @@ Predicting California housing prices two ways: as a classification problem (is a
 Logistic Regression is benchmarked against a Random Forest on the same train/test split.
 
 <div align="center">
-  <img src="assets/figures/correlation_heatmap.png" alt="Correlation Heatmap" width="700">
+  <img src="assets/figures/correlation_heatmap.png" alt="Correlation Heatmap" width="400">
 </div>
 
 > The correlation heatmap flags `MedInc` as the feature most linearly related to price, which is why it dominates the Logistic Regression decision boundary. 
 
 <div align="center">
-  <img src="assets/figures/confusion_matrix.png" alt="Confusion Matrix" width="700">
+  <img src="assets/figures/confusion_matrix.png" alt="Confusion Matrix" width="400">
 </div>
 
 > The confusion matrix shows the errors are split almost evenly, 357 false positives vs. 360 false negatives out of 4,128 test houses, so the model isn't biased toward over- or under-predicting "expensive."
 
 <div align="center">
-  <img src="assets/figures/model_comparison_bar.png" alt="Model Comparison Bar Chart" width="700">
+  <img src="assets/figures/model_comparison_bar.png" alt="Model Comparison Bar Chart" width="400">
 </div>
 
 > Random Forest beats Logistic Regression on every metric, which means the true relationship between features and price bracket isn't fully linear.
 
 <div align="center">
-  <img src="assets/figures/feature_importance.png" alt="Feature Importance" width="700">
+  <img src="assets/figures/feature_importance.png" alt="Feature Importance" width="400">
 </div>
 
 > The Random Forest's feature importance chart shows which variables it actually leans on, useful for sanity-checking that the model's decisions line up with domain intuition rather than picking up on noise.
@@ -67,7 +67,7 @@ Logistic Regression is benchmarked against a Random Forest on the same train/tes
 Polynomial Regression (degree 2) is benchmarked against a plain Linear Regression baseline on the same features.
 
 <div align="center">
-  <img src="assets/figures/actual_vs_predicted_side_by_side.png" alt="Actual vs Predicted Side by Side" width="700">
+  <img src="assets/figures/actual_vs_predicted_side_by_side.png" alt="Actual vs Predicted Side by Side" width="500">
 </div>
 
 > Side by side, the Polynomial Regression's points hug the diagonal (perfect-prediction line) more tightly than the Linear Regression's, especially in the middle price range, visual confirmation that the degree-2 terms are capturing real curvature in the price relationship, not just adding noise.
