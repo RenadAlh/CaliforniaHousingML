@@ -15,7 +15,7 @@ Predicting California housing prices two ways: as a classification problem (is a
 [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=plastic&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/camnugent/california-housing-prices)
 
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RenadAlh/california-housing-ml/blob/main/california_housing_ml.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RenadAlh/CaliforniaHousingML/blob/main/california_housing_ml.ipynb)
 
 </div>
 
@@ -121,7 +121,7 @@ Polynomial Regression (degree 2) is benchmarked against a plain Linear Regressio
 | Polynomial Regression (deg=2) | **0.464** | **0.646** |
 
 - Polynomial Regression cuts MSE by **~16.5%** and explains **~7** more percentage points of variance (R²) than the plain linear baseline.
-- Degree was fixed at 2, this is a lower bound on how much a non-linear model could improve on the linear baseline.
+- Degree was fixed at 2; this is a lower bound on how much a non-linear model could improve on the linear baseline.
 
 <br>
 
@@ -130,7 +130,7 @@ Polynomial Regression (degree 2) is benchmarked against a plain Linear Regressio
 <div align="center">
 
 [![Renad Alharthi](https://img.shields.io/badge/Renad_Alharthi-0A2F1F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RenadAlh)
-[![Rawan Alahmadi](https://img.shields.io/badge/Rawan_Alahmadi-0A2F1F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/USERNAME)
+[![Rawan Alahmadi](https://img.shields.io/badge/Rawan_Alahmadi-0A2F1F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/iiRawanj)
 </a>
 
 </div>
