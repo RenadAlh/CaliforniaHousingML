@@ -62,7 +62,7 @@ Logistic Regression is benchmarked against a Random Forest on the same train/tes
 
 <br>
 
-### Regression; what is the actual price?
+### Regression; *what is the actual price?*
 
 Polynomial Regression (degree 2) is benchmarked against a plain Linear Regression baseline on the same features.
 
